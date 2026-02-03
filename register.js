@@ -2,7 +2,7 @@ const { REST, Routes, SlashCommandBuilder } = require("discord.js");
 const { token } = require("./config.json");
 
 const CLIENT_ID = "1467355895527899227";
-const GUILD_ID = "1465953469398650943";
+const GUILD_ID = "1466883282615668942";
 
 const commands = [
   new SlashCommandBuilder()
