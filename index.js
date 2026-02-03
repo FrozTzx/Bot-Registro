@@ -10,8 +10,6 @@ const {
   InteractionType
 } = require("discord.js");
 
-// 🔐 IMPORTA O TOKEN DO config.json
-const { token } = require("./config.json");
 
 const client = new Client({
   intents: [
@@ -101,4 +99,4 @@ client.on("interactionCreate", async (interaction) => {
 });
 
 // ▶️ LIGA O BOT
-client.login(token);
+client.login(process.env.TOKEN);
